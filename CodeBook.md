@@ -29,13 +29,13 @@ VARIABLES:
 
 15.subfinaldf: To store the data frame formed by subsetting the "finaldf" data frame based on mean and standard deviation in the column names.
 
-16.subfinaldf1: Dataset formed by merging the Subject and Activity.Label columns to groupedfinaldf.
+16.subfinaldf1: Dataset formed by binding the Subject and Activity.Label columns to groupedfinaldf.Its dimensions are 10299 8
 
 17.activity_label: A vector which stores the 6 activity labels. This vector is indexed to give descriptive activity names in the second column of the data frame.
 
-18.groupedfinaldf: Dataset formed by grouping the "finaldf" dataset based on Subject and Activity Label
+18.groupedfinaldf: Dataset formed by grouping the "subfinaldf1" dataset based on Subject and Activity Label 10299 81
 
-19.tidydataset: The dataset formed by summarising the "groupedfinaldf" based on mean function.
+19dfmean1: The dataset formed by summarising the "groupedfinaldf" based on mean function.Its dimensions are 180 81
 
 
 DATA AND TRANSFORMATIONS:
